@@ -1,0 +1,104 @@
+
+/* containers */
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 200px auto;
+}
+
+main{
+    width: 375px;
+    margin: auto;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+}
+
+.header{
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    
+}
+
+.post-content{
+
+}
+
+.user-info{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: baseline;
+    padding: 10px;
+}
+
+.body{
+    padding: 10px;
+}
+
+
+/* images */
+
+/* header/account images */
+
+.logo,
+.avatar{
+    padding: 16px;
+}
+
+.logo{
+    width: 127px;
+}
+
+.avatar{
+    width: 37px;
+    border-radius: 50%;
+}
+
+/* user-info images */
+#post-avatar{
+    padding-right: 5px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+#post-img{
+    width: 100%;
+}
+
+
+.body-icon{
+    width: 23.3px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 13px;
+    margin: 0;
+
+}
+
+h2{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+p{
+    margin: 0px;
+    padding-top: 12px;
+}
+
+#post-likes,
+#user-name,h1 {
+    font-weight: 900;
+}
+
+
+
+.border {
+    border: 1px dotted red;
+}
+
