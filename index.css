@@ -35,9 +35,18 @@ main{
 }
 
 .body{
-    padding: 10px;
+    padding: 10px 19px 16px 10px;
 }
 
+.body-comment{
+    display: flex;
+    flex-direction: row;
+}
+
+.body-likes{
+    display: flex;
+    flex-direction: row;
+}
 
 /* images */
 
@@ -58,13 +67,13 @@ main{
 }
 
 /* user-info images */
-#post-avatar{
+#post-avatar-el{
     padding-right: 5px;
     width: 34px;
     border-radius: 50%;
 }
 
-#post-img{
+#post-img-el{
     width: 100%;
 }
 
@@ -89,10 +98,11 @@ h2{
 p{
     margin: 0px;
     padding-top: 12px;
+    padding-right: 5px;
 }
 
-#post-likes,
-#user-name,h1 {
+#post-likes-el,
+#user-name-el,h1 {
     font-weight: 900;
 }
 

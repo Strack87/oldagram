@@ -28,4 +28,30 @@ const posts = [
     }
 ]
 
+const postAvatarEl = document.getElementById("post-avatar-el")
+const postNameEl = document.getElementById("post-name-el")
+const postLocationEL = document.getElementById("post-location-el")
+const postImageEl = document.getElementById("post-img-el")
+const postLikesEl = document.getElementById("post-likes-el")
+const postUserNameEl = document.getElementById("user-name-el")
+const postCommentEl = document.getElementById("post-comments-el")
+
+
+
+const firstAvatarName = posts[2].avatar
+const firstPostName = posts[2].name
+const firstLocationName = posts[2].location
+const firstImageEl = posts[2].post
+const firstLikesEl = posts[2].likes
+const firstUserNameEl = posts[2].username
+const firstCommentEl = posts[2].comment
+
+
+postAvatarEl.src = firstAvatarName
+postNameEl.textContent = firstPostName
+postLocationEL.textContent = firstLocationName
+postImageEl.src = firstImageEl
+postLikesEl.textContent = firstLikesEl
+postUserNameEl.textContent = firstUserNameEl
+postCommentEl.textContent = firstCommentEl
 
