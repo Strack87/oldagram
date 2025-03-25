@@ -41,6 +41,7 @@ main{
 .body-comment{
     display: flex;
     flex-direction: row;
+    overflow: auto;
 }
 
 .body-likes{
