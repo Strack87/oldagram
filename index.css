@@ -3,28 +3,37 @@
 
 body {
     font-family: "Source Sans 3", sans-serif;
-    margin: 200px auto;
-}
-
-main{
     width: 375px;
     margin: auto;
-    border: 1px solid #C6C6C6;
-    border-radius: 10px;
+        border-radius: 10px;
+    position: inherit;
+    margin-top: 68px;
+
 }
 
-.header{
+
+header{
     height: 67px;
+    width: 375px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
     border-bottom: 1px solid #C6C6C6;
-    
+    top: 0;
+    position: fixed;
+    overflow: visible;
+    background-color: white;;
 }
 
-.post-content{
+main{
+    display: flex;
+    flex-direction: column;
+}
 
+footer{
+    height: 28px;
+    background-color: #F5F5F5;
 }
 
 .user-info{
@@ -34,17 +43,17 @@ main{
     padding: 10px;
 }
 
-.body{
-    padding: 10px 19px 16px 10px;
+.interaction-section {
+    padding: 10px 16px 19px 10px;
 }
 
-.body-comment{
+.comment{
     display: flex;
     flex-direction: row;
     overflow: auto;
 }
 
-.body-likes{
+.likes{
     display: flex;
     flex-direction: row;
 }
@@ -68,18 +77,18 @@ main{
 }
 
 /* user-info images */
-#post-avatar-el{
+.post-avatar{
     padding-right: 5px;
     width: 34px;
     border-radius: 50%;
 }
 
-#post-img-el{
+.post-img{
     width: 100%;
 }
 
 
-.body-icon{
+.icon{
     width: 23.3px;
     padding-right: 20px;
 }
@@ -102,8 +111,8 @@ p{
     padding-right: 5px;
 }
 
-#post-likes-el,
-#user-name-el,h1 {
+.post-likes,
+.user-name,h1 {
     font-weight: 900;
 }
 
