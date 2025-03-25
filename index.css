@@ -5,10 +5,9 @@ body {
     font-family: "Source Sans 3", sans-serif;
     width: 375px;
     margin: auto;
-        border-radius: 10px;
+    border-radius: 10px;
     position: inherit;
     margin-top: 68px;
-
 }
 
 
@@ -23,7 +22,8 @@ header{
     top: 0;
     position: fixed;
     overflow: visible;
-    background-color: white;;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 main{
