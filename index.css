@@ -8,6 +8,7 @@ body {
     border-radius: 10px;
     position: inherit;
     margin-top: 68px;
+    border-radius: 10px;
 }
 
 
@@ -24,6 +25,7 @@ header{
     overflow: visible;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
 }
 
 main{
