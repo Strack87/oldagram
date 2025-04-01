@@ -48,7 +48,7 @@ for (let i = 0; i < posts.length; i++) {
                 </div>
                 <div class="interaction-section">
                     <div class="icons">
-                        <img class="icon" src="images/icon-heart.png">
+                        <img class="icon" src="images/icon-heart.png" ondblclick="addLike();">
                         <img class="icon" src="images/icon-comment.png">
                         <img class="icon" src="images/icon-dm.png">
                     </div>
@@ -70,6 +70,10 @@ for (let i = 0; i < posts.length; i++) {
 }
 
 mainEl.innerHTML = html;
+
+
+
+
 
 
 
